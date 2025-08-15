@@ -84,9 +84,9 @@ export default function Navbar() {
                     <DarkmodeToggle />
                     <Button
                         variant="outline"
-                        className="hidden md:flex border-[#0457ff] text-[#0457ff] hover:bg-[#0457ff]/10"
+                        className="hidden md:flex border-primary cursor-pointer"
                     >
-                        <span className="h-2 w-2 rounded-full bg-[#0457ff] mr-2" />
+                        <span className="h-2 w-2 rounded-full bg-primary mr-2" />
                         Get Started
                     </Button>
                     <button

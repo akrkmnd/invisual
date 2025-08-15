@@ -63,7 +63,7 @@ export default function CompanySection() {
                 {/* 🧠 Value Cards */}
                 <div className="grid gap-6 md:grid-cols-3 mt-10">
                     {COMPANY_VALUES.map((value, index) => (
-                        <Card key={index} className="text-left hover:shadow-md transition">
+                        <Card key={index} className="text-left">
                             <CardHeader className="flex items-center justify-start gap-4">
                                 {value.icon}
                                 <CardTitle>{value.title}</CardTitle>
@@ -81,7 +81,7 @@ export default function CompanySection() {
                     <h3 className="text-lg font-semibold text-foreground text-center mb-6">
                         Trusted by brands and businesses
                     </h3>
-                    <div className="flex flex-wrap justify-center items-center gap-6 opacity-80 grayscale hover:grayscale-0 transition">
+                    <div className="flex flex-wrap justify-center items-center gap-6 opacity-80">
                         {["logo.png", "logo.png", "logo.png", "logo.png", "logo.png", ].map((logo, i) => (
                             <Image
                                 key={i}

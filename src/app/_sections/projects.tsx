@@ -111,7 +111,7 @@ export default function ProjectsSection() {
                             <TabsTrigger
                                 key={category.id}
                                 value={category.id}
-                                className="px-4 py-2 text-sm sm:text-base"
+                                className="px-4 py-2 text-sm sm:text-base cursor-pointer"
                             >
                                 {category.label}
                             </TabsTrigger>
@@ -151,10 +151,9 @@ export default function ProjectsSection() {
                                     ))}
                                 </CarouselContent>
 
-                                <CarouselPrevious className="absolute -left-4 top-1/2 -translate-y-1/2 z-10" />
-                                <CarouselNext className="absolute -right-4 top-1/2 -translate-y-1/2 z-10" />
+                                <CarouselPrevious className="absolute -left-4 top-1/2 -translate-y-1/2 z-10 cursor-pointer" />
+                                <CarouselNext className="absolute -right-4 top-1/2 -translate-y-1/2 z-10 cursor-pointer" />
                             </Carousel>
-
                         </TabsContent>
                     ))}
                 </Tabs>

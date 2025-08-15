@@ -79,8 +79,8 @@ export function TestimonialCarousel() {
                 ))}
             </CarouselContent>
 
-            <CarouselPrevious className="absolute -left-4 top-1/2 -translate-y-1/2 z-10" data-testid="carousel-prev" />
-            <CarouselNext className="absolute -right-4 top-1/2 -translate-y-1/2 z-10" data-testid="carousel-next" />
+            <CarouselPrevious className="absolute -left-4 top-1/2 -translate-y-1/2 z-10 cursor-pointer" data-testid="carousel-prev" />
+            <CarouselNext className="absolute -right-4 top-1/2 -translate-y-1/2 z-10 cursor-pointer" data-testid="carousel-next" />
         </Carousel>
     )
 }

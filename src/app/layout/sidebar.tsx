@@ -24,7 +24,7 @@ export default function Sidebar({
         <Sheet open={open} onOpenChange={setOpen}>
             <SheetContent>
                 <SheetHeader>
-                    <SheetTitle>
+                    <SheetTitle className="text-primary text-2xl">
                         INVISUAL
                     </SheetTitle>
                     <SheetDescription className="sr-only">
@@ -32,6 +32,7 @@ export default function Sidebar({
                     </SheetDescription>
                 </SheetHeader>
                 <div className="grid flex-1 auto-rows-min gap-6 px-4">
+                    <Separator />
                     <div className="grid gap-3">
                         <Link href="#home">Home</Link>
                     </div>
@@ -50,9 +51,9 @@ export default function Sidebar({
                     <Separator />
                 </div>
                 <SheetFooter>
-                    <Button type="submit">Get Started</Button>
+                    <Button className="cursor-pointer" type="submit">Get Started</Button>
                     <SheetClose asChild>
-                        <Button variant="outline">Close</Button>
+                        <Button className="border-primary text-primary cursor-pointer" variant="outline">Close</Button>
                     </SheetClose>
                 </SheetFooter>
             </SheetContent>

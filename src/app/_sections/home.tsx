@@ -67,10 +67,10 @@ export default function HeroSection() {
                 </p>
 
                 <div className="mt-8 flex flex-wrap justify-center lg:justify-start gap-4">
-                    <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+                    <Button size="lg" className="bg-primary text-primary-foreground cursor-pointer">
                         Start Your Project
                     </Button>
-                    <Button variant="outline" size="lg">
+                    <Button className="border-primary text-primary cursor-pointer" variant="outline" size="lg">
                         Explore Our Works
                         <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>

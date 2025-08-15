@@ -41,7 +41,7 @@ export default function Footer() {
                         </div>
 
                         <div className="flex w-2/5 flex-col gap-4 md:w-1/3">
-                            <h2 className="text-foreground font-semibold mb-3">Contact</h2>
+                            <h2 className="mb-2 font-bold">Contact</h2>
                             <Link href="mailto:invisual.id@gmail.com" className="w-fit text-neutral-400 hover:text-primary">invisual.id@gmail.com</Link>
                         </div>
                     </div>

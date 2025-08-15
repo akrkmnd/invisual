@@ -47,9 +47,7 @@ export default function Footer() {
                 </div>
 
                 <div className="flex flex-col-reverse justify-between gap-4 border-t-2 border-neutral-700 pt-4 md:flex-row lg:items-center">
-                    <p className="text-sm text-neutral-400">© 2025 Invisual Studio. Built with love 💙 from <Link href="https://www.instagram.com/akrkmnd" target="_blank" rel="noopener noreferrer" className="w-fit text-neutral-400 hover:text-primary">
-                        @akrkmnd
-                    </Link></p>
+                    <p className="text-sm text-neutral-400">© 2025 Invisual Studio. Built with love 💙</p>
                 </div>
             </div>
         </footer>

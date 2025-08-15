@@ -6,10 +6,10 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 const banners = [
-    "/banners/banner1.webp",
-    "/banners/banner2.webp",
-    "/banners/banner3.webp",
-    "/banners/banner4.webp",
+    "https://res.cloudinary.com/akrkmnd/image/upload/v1755238561/banner1_rt4zqy.webp",
+    "https://res.cloudinary.com/akrkmnd/image/upload/v1755238561/banner2_ucir4d.webp",
+    "https://res.cloudinary.com/akrkmnd/image/upload/v1755238561/banner3_g0hr5u.webp",
+    "https://res.cloudinary.com/akrkmnd/image/upload/v1755238561/banner4_h3dfpg.webp",
 ];
 
 export default function HeroSection() {
@@ -35,8 +35,10 @@ export default function HeroSection() {
                         alt={`Banner ${activeIndex + 1}`}
                         width={1620}
                         height={624}
-                        className="w-full h-auto object-cover rounded-md"
+                        sizes="..."
+                        className="..."
                         priority
+                        fetchPriority="high"
                     />
                 </div>
 
@@ -46,6 +48,7 @@ export default function HeroSection() {
                         alt={`Banner ${nextIndex + 1}`}
                         width={1620}
                         height={624}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 810px"
                         className="w-full h-auto object-cover rounded-md transition-all duration-700 ease-in-out"
                     />
                 </div>

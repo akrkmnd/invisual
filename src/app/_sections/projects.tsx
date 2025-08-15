@@ -23,23 +23,23 @@ const PROJECT_CATEGORIES = [
         projects: [
             {
                 title: "Brand",
-                image: "/projects/branding1.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240458/branding1_yhz8wh.webp",
             },
             {
                 title: "Brand",
-                image: "/projects/branding2.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240458/branding2_gdbc8h.webp",
             },
             {
                 title: "Brand",
-                image: "/projects/branding3.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240458/branding3_rununr.webp",
             },
             {
                 title: "Brand",
-                image: "/projects/branding4.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240458/branding4_hak2s2.webp",
             },
             {
                 title: "Brand",
-                image: "/projects/branding5.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240458/branding5_bzxmdp.webp",
             },
         ],
     },
@@ -49,23 +49,23 @@ const PROJECT_CATEGORIES = [
         projects: [
             {
                 title: "Social Media",
-                image: "/projects/social1.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240458/social1_howr1v.webp",
             },
             {
                 title: "Social Media",
-                image: "/projects/social2.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240457/social2_rzx7nc.webp",
             },
             {
                 title: "Social Media",
-                image: "/projects/social3.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240457/social3_afyvvr.webp",
             },
             {
                 title: "Social Media",
-                image: "/projects/social4.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240458/social4_rpbjmq.webp",
             },
             {
                 title: "Social Media",
-                image: "/projects/social5.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240458/social5_bolzph.webp",
             },
         ],
     },
@@ -75,23 +75,23 @@ const PROJECT_CATEGORIES = [
         projects: [
             {
                 title: "Content",
-                image: "/projects/social5.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240458/social5_bolzph.webp",
             },
             {
                 title: "Content",
-                image: "/projects/social4.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240458/social4_rpbjmq.webp",
             },
             {
                 title: "Content",
-                image: "/projects/social1.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240458/social1_howr1v.webp",
             },
             {
                 title: "Content",
-                image: "/projects/social2.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240457/social2_rzx7nc.webp",
             },
             {
                 title: "Content",
-                image: "/projects/social3.webp",
+                image: "https://res.cloudinary.com/akrkmnd/image/upload/v1755240457/social3_afyvvr.webp",
             },
         ],
     },
@@ -137,6 +137,7 @@ export default function ProjectsSection() {
                                                         alt={project.title}
                                                         width={1620}
                                                         height={1000}
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 600px"
                                                         className="w-full aspect-[1.62] object-cover rounded-lg"
                                                     />
                                                     <CardContent className="py-4 px-6">

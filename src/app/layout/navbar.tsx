@@ -7,7 +7,6 @@ import {
     NavigationMenuItem,
     NavigationMenuLink,
     NavigationMenuList,
-    navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";

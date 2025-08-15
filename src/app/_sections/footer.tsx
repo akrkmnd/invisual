@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
 
 export default function Footer() {

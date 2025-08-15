@@ -7,7 +7,6 @@ import {
     CardContent,
     CardTitle,
 } from "@/components/ui/card";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Lightbulb, Users, Star } from "lucide-react";
 import Image from "next/image";
 
@@ -82,7 +81,7 @@ export default function CompanySection() {
                         Trusted by brands and businesses
                     </h3>
                     <div className="flex flex-wrap justify-center items-center gap-6 opacity-80">
-                        {["logo.png", "logo.png", "logo.png", "logo.png", "logo.png", ].map((logo, i) => (
+                        {["logo.svg", "logo.svg", "logo.svg", "logo.svg", "logo.svg", ].map((logo, i) => (
                             <Image
                                 key={i}
                                 src={`/${logo}`}
